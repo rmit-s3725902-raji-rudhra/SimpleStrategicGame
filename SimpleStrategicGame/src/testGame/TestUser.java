@@ -13,7 +13,7 @@ import org.junit.Test;
 import simpleGame.User;
 import simpleGame.SimpleStrategicGame;
 
-public class TestGame {
+public class TestUser {
 
 	private SimpleStrategicGame ssGame;
 	private ArrayList<User> pList;
