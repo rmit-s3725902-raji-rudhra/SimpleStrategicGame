@@ -1,108 +1,63 @@
 package simpleGame;
 
-
-
 /**
-
-
-* @author RudhraRaji
-
-
-
-* 21 Aug. 2018
-
-
-*/
-
+ * 
+ * 
+ * @author RudhraRaji
+ * 
+ * 
+ * 
+ *         21 Aug. 2018
+ * 
+ * 
+ */
 
 public class Monster {
 
-
 	private int Mspeed;
-
 
 	private int x;
 
-
-
-	
-
-
-
-	public Monster(int initialX,int initialMspeed)
-
+	public Monster(int initialX, int initialMspeed)
 
 	{
 
+		x = initialX;
 
-		x=initialX;
-
-
-		Mspeed=initialMspeed;
-
-
-	
-
+		Mspeed = initialMspeed;
 
 	}
-
-
 
 	public void Move()
 
-
 	{
 
+		if (x + Mspeed <= 2);
 
-		if (x+Mspeed <=2);
-
-
-		x=x+Mspeed;
-
+		x = x + Mspeed;
 
 	}
-
 
 	public boolean notMove()
 
-
 	{
 
-
-		if (Mspeed== 1)
-
+		if (Mspeed == 1)
 
 			return true;
 
-
 		else
-
 
 			return false;
 
-
 	}
-
-
-	
-
-
-	
-
 
 	public int getX()
 
-
 	{
-
 
 		return x;
 
-
 	}
-
-
-	
-
 
 }
