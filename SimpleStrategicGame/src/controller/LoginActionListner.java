@@ -8,7 +8,6 @@ import javax.swing.JOptionPane;
 
 import view.GamePanel;
 import view.LoginForm;
-import view.SSGameSystem;
 
 /**
  * @author Rajarajeswari Rudhrakumar (S3725902) 28 Aug. 2018
