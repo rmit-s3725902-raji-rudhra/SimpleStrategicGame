@@ -1,5 +1,5 @@
 
-package testGame;
+package ssGameTest;
 /**
  * @author Suma Subbu
  * 22 Aug. 2018

@@ -1,4 +1,4 @@
-package testGame;
+package ssGameTest;
 
 
 import static org.junit.Assert.*;

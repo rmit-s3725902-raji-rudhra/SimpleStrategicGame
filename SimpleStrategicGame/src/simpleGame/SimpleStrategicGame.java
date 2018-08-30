@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class SimpleStrategicGame {
 
 	ArrayList<User> playerList = new ArrayList<User>();
+	
 
 	public ArrayList<User> getPlayerList(){
 		return this.playerList;
@@ -36,10 +37,32 @@ public class SimpleStrategicGame {
 					}
 				}
 			}
-
 		}
-		
 		return result;
 	}
+	//find the player id array position
+	public int findPlayer(String playerID) {
+		
+		int playerPosition = 0;
+		if(playerID.equals("")) {
+		System.out.println("Player Not Found");	
+		return playerPosition;
+		}
+		
+		if(playerList.size() == 0) {
+			System.out.println("There are no players in the system");
+			return playerPosition;
+		}
+		
+		for(int i = 0; i <= playerList.size(); i++) {
+			if (playerList.get(i).getPlayerId().equals(playerID)) {
+				playerPosition = i;
+				return playerPosition;
+			}
+		}
+		return playerPosition;
+	}
+
+	
 
 }

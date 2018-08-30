@@ -1,4 +1,4 @@
-package testGame;
+package ssGameTest;
 /**
 * @author RudhraRaji
 * 21 Aug. 2018
