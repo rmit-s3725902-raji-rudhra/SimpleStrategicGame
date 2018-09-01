@@ -1,5 +1,5 @@
 
-package ssGameTest;
+package test;
 /**
  * @author Suma Subbu
  * 22 Aug. 2018
@@ -8,9 +8,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 
-import simpleGame.*;
-
 import org.junit.Test;
+
+import model.Player;
 
 public class TestPlayer {
     Player player;

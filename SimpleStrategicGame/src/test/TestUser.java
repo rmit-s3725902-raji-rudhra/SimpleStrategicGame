@@ -1,4 +1,4 @@
-package ssGameTest;
+package test;
 /**
 * @author RudhraRaji
 * 21 Aug. 2018
@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
 
-import simpleGame.User;
-import simpleGame.SimpleStrategicGame;
+import controller.SimpleStrategicGame;
+import model.User;
 
 public class TestUser {
 

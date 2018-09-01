@@ -1,11 +1,12 @@
-package ssGameTest;
+package test;
 // * @author Raghul Karthik
 import static org.junit.Assert.*;
-import simpleGame.Posion;
 
 import org.junit.Before;
 import org.junit.Test;
-import simpleGame.SimpleStrategicGame;
+
+import controller.SimpleStrategicGame;
+import model.Posion;
 
 public class TestPoison {
 

@@ -18,7 +18,8 @@ public class SSGameSystem extends JFrame {
 
 	/*private ToolBar toolBar = new ToolBar(this);
 	*/
-	private JPanel loginPanel = new LoginForm();	
+	//private JPanel loginPanel = new LoginForm();	
+	private LoginForm loginPanel = new LoginForm();
 
 	/**
 	 * Initialize the contents of the frame.

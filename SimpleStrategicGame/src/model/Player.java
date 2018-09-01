@@ -1,4 +1,4 @@
-package simpleGame;
+package model;
 
 /**
  * @author Suma Subbu

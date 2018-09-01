@@ -1,10 +1,11 @@
-package simpleGame;
+package controller;
 /**
 * @author RudhraRaji
 
 * 21 Aug. 2018
 */
 import java.util.ArrayList;
+import model.User;
 
 public class SimpleStrategicGame {
 

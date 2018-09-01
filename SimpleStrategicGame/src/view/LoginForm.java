@@ -29,8 +29,6 @@ public class LoginForm extends JPanel {
 	private JButton btnCancel = new JButton("Cancel");
 
 	public LoginForm() {
-
-
 		lblTitle.setForeground(Color.blue);
 		lblTitle.setFont(new Font("Serif", Font.BOLD, 40));
 		lblTitle.setVerticalAlignment((int) CENTER_ALIGNMENT);
